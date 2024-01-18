@@ -1,6 +1,6 @@
 #include <iostream>
-
 using namespace std;
+
 int sumOfDigits(int n) {
     int sum = 0;
     while (n > 0) {
@@ -21,6 +21,7 @@ bool isHarshad(int num) {
 
     return(num%sum==0);
 }
+
 void harshadNumbers(int n) {
     if (n <= 0) {
         cout << "Invalid input. N must be a positive integer." << endl;
@@ -37,6 +38,7 @@ void harshadNumbers(int n) {
     }
     cout << endl;
 }
+
 int main() {
     int x;
     cout<<"Please input a number:"<<endl;
